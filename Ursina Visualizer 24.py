@@ -77,7 +77,7 @@ right_half = Entity(parent=parent_entity, model=Mesh(vertices=[Vec3(0, -0.5, 0),
 audio = Audio('june.wav', loop=True, autoplay=True)
 
 # Variable to specify the delay before the animation should begin (in seconds)
-animation_start_delay = 5.0  # Adjust this value as needed
+animation_start_delay = 0.0  # Adjust this value as needed
 
 # Define the start time
 start_time = time.time()
